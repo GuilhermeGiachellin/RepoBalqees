@@ -10,23 +10,29 @@
 <body>
   <div class="container">
     <div class="heading">
-      <h2>freeCodeCamp Survey Form</h2>
+      <h1>freeCodeCamp Survey Form</h1>
       <p>Thank you for taking the time to help us improve the platform</p>
     </div>
     <div class="form">
       <form>
-        <label for="">
+        <div class="input">
+          <label for="">
           Name
           <input type="text" name="" id="" placeholder="Enter You Name">
-        </label>
-        <label for="">
+          </label>
+        </div>
+        <div class="input">
+          <label for="">
           Email
           <input type="email" name="" id="" placeholder="Enter You Email">
         </label>
-        <label for="">
+        </div>
+        <div class="input">
+          <label for="">
           Age(optional)
           <input type="Number" name="" id="" placeholder="Enter You Name">
-        </label>older="Select current role">
+        </label>
+        </div>
         </label>
         <select name="" id="">
           Which option best describes your current role?
@@ -39,30 +45,29 @@
         </select>
         <p>Would you recommend freeCodeCamp to a friend?</p>
         <label for="">         
-          <input type="radial" name="" id="">
+          <input type="radio" name="" id="">
           Definitely
         </label>
         <label for="">         
-          <input type="radial" name="" id="">
+          <input type="radio" name="" id="">
           Maybe
         </label>
         <label for="">         
-          <input type="radial" name="" id="">
+          <input type="radio" name="" id="">
           Not Sure
         </label>
+        <p>What is your favorite feature of freeCodeCamp?</p>
         <select name="" id="">
-          What is your favorite feature of freeCodeCamp?
           <option value="">Select an option</option>
           <option value="">Challenges</option>
           <option value="">Projects</option>
           <option value="">Community</option>
           <option value="">Open source</option>
         </select>
-<<<<<<< HEAD
 
-=======
-        <p>Would you recommend freeCodeCamp to a friend?</p>
-        <label for="">         
+        <p>Which option best describe your current role?</p>
+        <div class="checkbox">
+          <label for="">         
           <input type="checkbox" name="" id="">
           Front-end Projects
         </label>
@@ -106,12 +111,12 @@
           <input type="checkbox" name="" id="">
           Additional Courses
         </label>
-
-        <p>Any commetns or suggestions?</p>
+        </div>
+        <div class="text">
+           <p>Any commetns or suggestions?</p>
         <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
-        
+        </div>
         <button>Submit</button>
->>>>>>> 6f2921e22bfd29e673ca208825989f12f87776b6
       </form>
       
     </div>

@@ -1,1 +1,64 @@
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw3M3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  margin: 5rem auto;
+  width: 50%;
+}
+.heading {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.form {
+  background-color: #05032c;
+  border-radius: 8px;
+  color: #fff;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+}
+label {
+  display: block;
+  padding-bottom: .5rem; 
+}
+label input[type="text"], 
+label input[type="email"],
+label input[type="number"]
+ {
+  display: block;
+  padding: .5rem;
+  width: 100%;
+}
+select {
+  margin: .7rem 0;
+  width : 100%;
+  padding: .6rem;
+}
+button {
+  width : 90%;
+  margin: 1rem;
+  padding: .6rem;
+  background-color: rgb(4, 88, 60);
+  border: none;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+textarea {
+  margin: .6rem 0;
+}
